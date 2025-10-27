@@ -18,7 +18,7 @@ function Blog() {
 
     const fetchblogs = async () =>  {
 
-    const response = await fetch(`http://localhost:3000/api/blogs?pageSize=${pageSize}`)
+    const response = await fetch(`/api/blogs?pageSize=${pageSize}`)
     const data = await response.json()
     setblogs(data.blogs)
     setblogsShown(data.blogs.length)
@@ -32,7 +32,7 @@ function Blog() {
   
 
     count = pageSize + 1
-    const response = await fetch(`http://localhost:3000/api/blogs?pageSize=${count}`)
+    const response = await fetch(`/api/blogs?pageSize=${count}`)
     const data = await response.json()
     // console.log("blogs ",blogs,"data.blogs ",data.blogs)
     setblogs(data.blogs)
