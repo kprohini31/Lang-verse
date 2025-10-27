@@ -1,0 +1,43 @@
+
+.about_us_text
+{
+  color: rgb(84, 196, 184);
+  font-size: 1.5rem;
+}
+
+.coder_text
+{
+  color: rgb(84, 196, 184);
+  font-size: 1.5rem;
+}
+
+.community_text
+{
+ color: rgb(96, 165, 250);
+ font-size: 1.2rem;
+}
+
+.ps_text
+{
+  color: rgb(73, 219, 126);
+}
+
+.lp_text
+{
+  color: rgb(174, 122, 230);
+}
+
+.techtrends_text
+{
+  color: rgb(250, 204, 21);
+}
+
+.inner_container
+{
+    padding: 5px;
+    border-radius: 8px;
+    border: 1px solid rgb(55, 65, 81);
+    background-color: rgba(31, 41, 55, 0.5);
+    margin-bottom: 25px;
+}
+

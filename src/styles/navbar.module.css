@@ -1,0 +1,10 @@
+.nav_link{
+    text-decoration: none;
+    color: white;
+}
+
+
+.nav_link:hover{
+    text-decoration: underline;
+
+}
