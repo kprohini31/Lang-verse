@@ -4,6 +4,7 @@ import { useState,useEffect } from 'react'
 import style from '../styles/blog.module.css'
 // import * as fs from "fs/promises"
 import InfiniteScroll from "react-infinite-scroll-component";
+import Head from "next/head";
 
 
 function Blog() {
@@ -42,13 +43,18 @@ function Blog() {
   
   useEffect(() => {
 
-    fetchblogs()
+    fetchblogs();
+
 
   }, [])
   
 
   return (
     <>
+    <Head>
+        <title>Lang Verse | blog</title>
+        <link rel="icon" href="/blogger.png" />
+    </Head>
     <style jsx>
       {
         `

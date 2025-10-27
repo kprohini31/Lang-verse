@@ -1,6 +1,7 @@
 import React from "react";
 import { useState } from "react";
 import style from "../styles/contact.module.css";
+import Head from "next/head";
 
 function Contact() {
   const [email, setemail] = useState();
@@ -39,6 +40,10 @@ function Contact() {
 
   return (
     <>
+      <Head>
+        <title>Lang Verse | Contact</title>
+        <link rel="icon" href="/blogger.png" />
+     </Head>
       <style jsx>
         {`
           h4 {

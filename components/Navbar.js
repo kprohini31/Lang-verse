@@ -40,7 +40,7 @@ function Navbar() {
           <div className="row justify-content-between">
 
             <div className="col-md-3 app_name">
-              <h4>Hunting Coder</h4>
+              <h4>Lang Verse</h4>
             </div>
 
             <div className="col-md-3 d-flex justify-content-around margintop">
