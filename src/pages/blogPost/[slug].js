@@ -12,7 +12,7 @@ function blogPost(props) {
   const fetchblog = async () => {
     const { slug } = router.query;
 
-    const data = await fetch(`http://localhost:3000/api/getBlog?slug=${slug}`);
+    const data = await fetch(`/api/getBlog?slug=${slug}`);
     const myBlog = await data.json();
     setblog(myBlog);
   };
